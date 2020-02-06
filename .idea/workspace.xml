@@ -1,24 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0aaa22b-94e7-48fe-a634-1dc70c93f1cb" name="Default Changelist" comment="" />
+    <list default="true" id="d0aaa22b-94e7-48fe-a634-1dc70c93f1cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/elsmancs/bowling/ScoreCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/elsmancs/bowling/testScoreCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/https:/github.com/mmasso/bowling-kata.git" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1XMAcd7aPUgsIR7UvRl8kjbG5Qk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.elsmancs.bowling" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.testScoreCard.testCalculateScoreWithNonScore">
+    <configuration name="testScoreCard.getScoreCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-Bowling" />
+      <option name="PACKAGE_NAME" value="edu.elsmancs.bowling" />
+      <option name="MAIN_CLASS_NAME" value="edu.elsmancs.bowling.testScoreCard" />
+      <option name="METHOD_NAME" value="getScoreCard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testScoreCard.testCalculateScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-Bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.elsmancs.bowling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.elsmancs.bowling" />
+      <option name="MAIN_CLASS_NAME" value="edu.elsmancs.bowling.testScoreCard" />
+      <option name="METHOD_NAME" value="testCalculateScore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testScoreCard.testCalculateScoreWithNonScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-Bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.elsmancs.bowling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.elsmancs.bowling" />
+      <option name="MAIN_CLASS_NAME" value="edu.elsmancs.bowling.testScoreCard" />
+      <option name="METHOD_NAME" value="testCalculateScoreWithNonScore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.testScoreCard.testCalculateScoreWithNonScore" />
+        <item itemvalue="JUnit.testScoreCard.testCalculateScore" />
+        <item itemvalue="JUnit.testScoreCard.getScoreCard" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -30,7 +129,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580845669772</updated>
+      <workItem from="1580845672116" duration="2979000" />
+      <workItem from="1581009047227" duration="2638000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="59" width="847" height="675" key="#Project_Structure" timestamp="1581009152692">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="59" width="847" height="675" key="#Project_Structure/0.27.1366.741@0.27.1366.741" timestamp="1581009152692" />
+    <state x="436" y="258" width="494" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581009139669">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="436" y="258" width="494" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1366.741@0.27.1366.741" timestamp="1581009139669" />
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1581010849651">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1581010849651" />
+    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1581010849650">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1581010849650" />
+    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1581010849649">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1581010849649" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1581010849650">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1581010849650" />
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1581009048177">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="339" y="225" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1581009048177" />
   </component>
 </project>
