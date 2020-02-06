@@ -13,13 +13,19 @@ public class ScoreCard {
 
     public String calculateScore() {
         Integer score = 0;
-        for (int i = 0; i<( scoreCard.length() ); i++){
+        for (int i = 0; i < ( scoreCard.length() ); i++){
             char pin = scoreCard.charAt(i);
             if(pin == '-') {
-                pin = '0'; }
+                score += 0;
+                }
             if(pin == '/') {
+                score -= Character.getNumericValue(scoreCard.charAt(i - 1));
+                score += 10;
+                score += Character.getNumericValue(scoreCard.charAt(i + 1));
                  }
-            score += Character.getNumericValue(pin);
+            else {
+                score += Character.getNumericValue(pin);
+            }
         }
 
         return score.toString();

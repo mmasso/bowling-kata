@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0aaa22b-94e7-48fe-a634-1dc70c93f1cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/elsmancs/bowling/ScoreCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/elsmancs/bowling/testScoreCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/elsmancs/bowling/ScoreCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/elsmancs/bowling/ScoreCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/elsmancs/bowling/ScoreCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/elsmancs/bowling/ScoreCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/elsmancs/bowling/testScoreCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/elsmancs/bowling/testScoreCard.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
       <recent name="edu.elsmancs.bowling" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.testScoreCard.testCalculateScoreWithNonScore">
+  <component name="RunManager" selected="JUnit.testScoreCard.testCalculateScoreWithSpare">
     <configuration name="testScoreCard.getScoreCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata-Bowling" />
       <option name="PACKAGE_NAME" value="edu.elsmancs.bowling" />
@@ -111,8 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testScoreCard.testCalculateScoreWithSpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-Bowling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.elsmancs.bowling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.elsmancs.bowling" />
+      <option name="MAIN_CLASS_NAME" value="edu.elsmancs.bowling.testScoreCard" />
+      <option name="METHOD_NAME" value="testCalculateScoreWithSpare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testScoreCard.testCalculateScoreWithSpare" />
         <item itemvalue="JUnit.testScoreCard.testCalculateScoreWithNonScore" />
         <item itemvalue="JUnit.testScoreCard.testCalculateScore" />
         <item itemvalue="JUnit.testScoreCard.getScoreCard" />
@@ -130,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580845669772</updated>
       <workItem from="1580845672116" duration="2979000" />
-      <workItem from="1581009047227" duration="2638000" />
+      <workItem from="1581009047227" duration="5983000" />
     </task>
     <servers />
   </component>
@@ -142,26 +156,46 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="278" y="59" width="847" height="675" key="#Project_Structure/0.27.1366.741@0.27.1366.741" timestamp="1581009152692" />
+    <state x="100" y="127" width="1166" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1581013171158">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="100" y="127" width="1166" height="541" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1366.741@0.27.1366.741" timestamp="1581013171158" />
     <state x="436" y="258" width="494" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581009139669">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="436" y="258" width="494" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1366.741@0.27.1366.741" timestamp="1581009139669" />
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1581010849651">
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1581015051684">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1581010849651" />
-    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1581010849650">
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1581015051684" />
+    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1581015051683">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1581010849650" />
-    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1581010849649">
+    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1581015051683" />
+    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1581015051682">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1581010849649" />
-    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1581010849650">
+    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1581015051682" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1581015051683">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1581010849650" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1581015051683" />
+    <state width="1320" height="219" key="GridCell.Tab.1.bottom" timestamp="1581014231434">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="219" key="GridCell.Tab.1.bottom/0.27.1366.741@0.27.1366.741" timestamp="1581014231434" />
+    <state width="1320" height="219" key="GridCell.Tab.1.center" timestamp="1581014231433">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="219" key="GridCell.Tab.1.center/0.27.1366.741@0.27.1366.741" timestamp="1581014231433" />
+    <state width="1320" height="219" key="GridCell.Tab.1.left" timestamp="1581014231432">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="219" key="GridCell.Tab.1.left/0.27.1366.741@0.27.1366.741" timestamp="1581014231432" />
+    <state width="1320" height="219" key="GridCell.Tab.1.right" timestamp="1581014231433">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="219" key="GridCell.Tab.1.right/0.27.1366.741@0.27.1366.741" timestamp="1581014231433" />
     <state x="339" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1581009048177">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
